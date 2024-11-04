@@ -1,19 +1,16 @@
-[![CI/CD](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml) [![Install](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/install.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/install.yml) [![Format](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/format.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/format.yml) [![Lint](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/lint.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/lint.yml) [![Test](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/test.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/test.yml)
+[![CI/CD](https://github.com/zachary-fennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml/badge.svg)]
 
 
+# Fennie's Cloud Hosted Notebook Data Manipulation
+## Python script reads a dataset, generates descriptive statistics, creates a visualization using Pandas, and performs some data manipulation
 
-# Fennie's Python Scripting for SQL Database
-## A Python script for an ETL pipeline to external data. The project will extract data from a url, make any necessary transformations, load the transformed data into a SQLite database, and perform CRUD queries to ananlyze and retrieve preliminary insights on the stored data.
-
-
-
-![diagram-export-10-6-2024-3_36_53-PM](https://github.com/user-attachments/assets/e476f6c1-42a3-41d0-b667-1885c59c4cd1)
 
 ## Structure
-The `library` directory contains `extract.py` to extract raw data from an online url source, `transform_load.py` to transform and load the original raw data from a `.csv` to a `.db` SQLite database, and `crud_query.py` to perform CRUD and query basic SQL operations.
-
-## Successful SQL Operations
-<img width="1336" alt="Screenshot 2024-10-07 at 5 26 19 PM" src="https://github.com/user-attachments/assets/199f3776-66dd-4011-a1e5-570e89d8ded5">
+The notebook will load data, generate descriptive stats, visualations, and data manipulation. Alongside, the repo also contains the following:
+* `library` directory contains `extract.py` to extract raw data from an online url source
+* `transform_load.py` to transform and load the original raw data from a `.csv` to a `.db` SQLite database
+* `crud_query.py` to perform CRUD and query basic SQL operations
+The rational is demonstrate what a full data project could like in anticipation of future projects.
 
 ### Core Files of the Repo:
 * Jupyter notebook
@@ -28,6 +25,9 @@ The `library` directory contains `extract.py` to extract raw data from an online
 * `Makefile`
 * `README.md`
 
+### Successful SQL Operations
+<img width="1336" alt="Screenshot 2024-10-07 at 5 26 19 PM" src="https://github.com/user-attachments/assets/199f3776-66dd-4011-a1e5-570e89d8ded5">
+
 ## Data
 ### FiveThirtyEight's MMS ICU Beds Dataset
 This dataset combines data from the Centers for Disease Control and Prevention's Behavioral Risk Factor Surveillance System (BRFSS) and the Kaiser Family Foundation to illustrate the number of people who were at high risk for hospitalization from the novel coronavirus COVID-19 in 2020.\
@@ -40,4 +40,4 @@ URL: https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d5
 ![output](https://github.com/user-attachments/assets/18565095-13cf-46be-b59b-174f677e9536)
 
 ### Jupyter Notebook for Preliminary Examination of Data
-[Notebook](https://github.com/zfennie/Python-Scripting-for-SQL-Database/blob/989acb7d003177e0bd28f9d42cad90ff8a8fb269/main_notebook.ipynb)
+[Notebook](https://github.com/zachary-fennie/Python-Scripting-for-SQL-Database/blob/main/main_notebook.ipynb)
