@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/zachary-fennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml/badge.svg)]
+![CI/CD](https://github.com/zachary-fennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml/badge.svg)
 
 
 # Fennie's Cloud Hosted Notebook Data Manipulation
@@ -6,11 +6,11 @@
 
 
 ## Structure
-The notebook will load data, generate descriptive stats, visualations, and data manipulation. Alongside, the repo also contains the following:
+The notebook will load data, generate descriptive stats, visualizations, and data manipulation. To demonstrate what a full data project could like in anticipation of future projects, the repo also contains the following:
 * `library` directory contains `extract.py` to extract raw data from an online url source
 * `transform_load.py` to transform and load the original raw data from a `.csv` to a `.db` SQLite database
 * `crud_query.py` to perform CRUD and query basic SQL operations
-The rational is demonstrate what a full data project could like in anticipation of future projects.
+
 
 ### Core Files of the Repo:
 * Jupyter notebook
@@ -40,4 +40,4 @@ URL: https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d5
 ![output](https://github.com/user-attachments/assets/18565095-13cf-46be-b59b-174f677e9536)
 
 ### Jupyter Notebook for Preliminary Examination of Data
-[Notebook](https://github.com/zachary-fennie/Python-Scripting-for-SQL-Database/blob/main/main_notebook.ipynb)
+[Notebook](https://github.com/zachary-fennie/Cloud-Hosted-Notebook-Data-Manipulation/blob/main/main_notebook.ipynb)
