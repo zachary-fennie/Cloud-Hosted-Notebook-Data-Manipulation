@@ -25,8 +25,8 @@ The notebook will load data, generate descriptive stats, visualizations, and dat
 * `Makefile`
 * `README.md`
 
-### Successful SQL Operations
-<img width="1336" alt="Screenshot 2024-10-07 at 5 26 19 PM" src="https://github.com/user-attachments/assets/199f3776-66dd-4011-a1e5-570e89d8ded5">
+### Successful Commit
+<img width="1075" alt="Screenshot 2024-11-03 at 7 28 32 PM" src="https://github.com/user-attachments/assets/9e13b009-1060-4ac6-956f-b3b59dcdadc3">
 
 ## Data
 ### FiveThirtyEight's MMS ICU Beds Dataset
