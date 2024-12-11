@@ -2,10 +2,10 @@
 
 
 # Fennie's Cloud Hosted Notebook Data Manipulation
-## Python script reads a dataset, generates descriptive statistics, creates a visualization using Pandas, and performs some data manipulation
+## The Project aims to set up a cloud-hosted Jupyter Notebook, i.e. Google Colab, and perform data manipulation tasks on a simple dataset. To accomplish this, I will use a the Google Colab cloud-hosted platform. The notebook will contain Python script reads a dataset, generates descriptive statistics, creates a visualization using Pandas, and performs some data manipulation.
 
 
-## Structure
+## Structure of the Repo & Notebook 
 The notebook will load data, generate descriptive stats, visualizations, and data manipulation. To demonstrate what a full data project could like in anticipation of future projects, the repo also contains the following:
 * `library` directory contains `extract.py` to extract raw data from an online url source
 * `transform_load.py` to transform and load the original raw data from a `.csv` to a `.db` SQLite database
